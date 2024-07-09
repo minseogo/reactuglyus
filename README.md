@@ -8,7 +8,6 @@ https://github.com/minseogo/reactuglyus/blob/main/public/dataflow/dataflow.png
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "react": "^18.3.1",
-    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.0",
     "react-scripts": "5.0.1",

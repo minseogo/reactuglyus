@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.53 41.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        font-family: GangwonEduAllBold, GangwonEduAll;
+        font-size: 27px;
+      }
+
+      .cls-2 {
+        fill: #5c916b;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="_1" data-name="1">
+    <g id="Rectangle_4" data-name="Rectangle 4">
+      <path class="cls-2" d="M-.07,0C-.14,0-.19.05-.19.12v41.76c0,.07.05.12.12.12s.12-.05.12-.12V.12C.05.05,0,0-.07,0Z"/>
+    </g>
+    <g id="Rectangle_4_copy" data-name="Rectangle 4 copy">
+      <path class="cls-2" d="M33.53,4.08c-.07,0-.12.05-.12.12v33.36c0,.07.05.12.12.12s.12-.05.12-.12V4.2c0-.07-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_2" data-name="Rectangle 4 copy 2">
+      <path class="cls-2" d="M67.13,4.08c-.07,0-.12.05-.12.12v33.36c0,.07.05.12.12.12s.12-.05.12-.12V4.2c0-.07-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_3" data-name="Rectangle 4 copy 3">
+      <path class="cls-2" d="M100.73,4.08c-.07,0-.12.05-.12.12v33.36c0,.07.05.12.12.12s.12-.05.12-.12V4.2c0-.07-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_3-2" data-name="Rectangle 4 copy 3">
+      <path class="cls-2" d="M134.33,4.08c-.07,0-.12.05-.12.12v33.36c0,.07.05.12.12.12s.12-.05.12-.12V4.2c0-.07-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_4" data-name="Rectangle 4 copy 4">
+      <path class="cls-2" d="M167.93,4.08c-.07,0-.12.05-.12.12v33.36c0,.07.05.12.12.12s.12-.05.12-.12V4.2c0-.07-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_4-2" data-name="Rectangle 4 copy 4">
+      <path class="cls-2" d="M201.53,0c-.07,0-.12.05-.12.12v41.76c0,.07.05.12.12.12s.12-.05.12-.12V.12c0-.07-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_5" data-name="Rectangle 4 copy 5">
+      <path class="cls-2" d="M201.53,37.44H-.08c-.07,0-.12.05-.12.12s.05.12.12.12h201.6c.07,0,.12-.05.12-.12s-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_6" data-name="Rectangle 4 copy 6">
+      <path class="cls-2" d="M201.53,41.76H-.08c-.07,0-.12.05-.12.12s.05.12.12.12h201.6c.07,0,.12-.05.12-.12s-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_7" data-name="Rectangle 4 copy 7">
+      <path class="cls-2" d="M201.53.08H-.08c-.07,0-.12.05-.12.12s.05.12.12.12h201.6c.07,0,.12-.05.12-.12s-.05-.12-.12-.12Z"/>
+    </g>
+    <g id="Rectangle_4_copy_8" data-name="Rectangle 4 copy 8">
+      <path class="cls-2" d="M201.53,4.08H-.08c-.07,0-.12.05-.12.12s.05.12.12.12h201.6c.07,0,.12-.05.12-.12s-.05-.12-.12-.12Z"/>
+    </g>
+  </g>
+  <g id="text1">
+    <g id="_당" data-name="당">
+      <text class="cls-1" transform="translate(6.07 30.31)"><tspan x="0" y="0">당</tspan></text>
+    </g>
+    <g id="_신" data-name="신">
+      <text class="cls-1" transform="translate(41.03 30.52)"><tspan x="0" y="0">신</tspan></text>
+    </g>
+    <g id="_이" data-name="이">
+      <text class="cls-1" transform="translate(74.58 30.73)"><tspan x="0" y="0">이</tspan></text>
+    </g>
+    <g id="_구" data-name="구">
+      <text class="cls-1" transform="translate(106.64 29.21)"><tspan x="0" y="0">구</tspan></text>
+    </g>
+    <g id="_해" data-name="해">
+      <text class="cls-1" transform="translate(141.07 30.58)"><tspan x="0" y="0">해</tspan></text>
+    </g>
+    <g id="_준" data-name="준">
+      <text class="cls-1" transform="translate(173.98 29.61)"><tspan x="0" y="0">준</tspan></text>
+    </g>
+  </g>
+</svg>

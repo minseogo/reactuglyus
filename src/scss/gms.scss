@@ -1,0 +1,261 @@
+
+.main_image_center_gms{
+  max-width: 1400px;
+  border-radius: 20px;
+}
+.main_image_side_gms{
+  max-width: 1000px;
+  border-radius: 20px;
+}
+.dja_gms{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ja_gms{
+  align-items: center;
+  justify-content: center;
+}
+.margin_bottom_gms{
+  margin-bottom: 40px;
+}
+
+
+
+// @media (max-width: 1920px) {
+
+.section_blank_gms{
+  margin-top: 220px;
+}
+
+.move90_right_gms{
+  transform: translate(40px, 20px);
+  z-index: 10;
+}
+.move30_right_gms{
+  transform: translate(30px, 90px);
+}
+.move30_left_gms{
+  transform: translate(-30px, 70px);
+}
+.move100_left_gms{
+  transform: translate(-40px, 110px); 
+}
+
+.review_img_gms{
+&:after{
+content: "";
+display: flex;
+position: absolute;
+top: 1px; left:1px; right:1px;
+bottom:1px;
+outline: 1px solid #BEBEBE;
+outline-offset: -1px;
+}
+
+border-radius: 10px;
+overflow: hidden;
+box-sizing: border-box;
+outline: 1px solid #BEBEBE;
+outline-offset: -1px;
+padding: 0;
+margin: 0;
+position: relative;
+}
+
+.center_image_gms {
+&:after{
+content: "";
+display: block;
+position: absolute;
+top: 1px; left:1px; right:1px;
+bottom:1px;
+border: 1px solid #BEBEBE;  
+}
+
+border-radius: 10px;
+overflow: hidden;
+box-sizing: border-box;
+outline: 1px solid #BEBEBE;
+outline-offset: -1px;
+padding: 0;
+margin: 0;
+position: relative;
+z-index: 10;
+}
+
+.center_image_gms:hover {
+outline: 5px solid #FE663F; 
+outline-offset: -2px; 
+z-index: 10; 
+transform: scale(1.1);
+}
+
+.more_button-wrapper_gms {
+position: relative;
+padding-bottom: 220px;
+padding-top: 100px;
+// padding-top : 220px 에서 120px로 교체 - pyj(5/23)
+}
+
+.more_button_gms {
+background-color: #FE663F; 
+color: white;
+border: none;
+border-radius: 20px;
+width: 110px;
+height: 37px;
+text-align: center;
+padding: 0;
+margin: 0;
+  }
+// }
+
+@media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+.center_image_gms{
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  outline: 1px solid #BEBEBE;
+  outline-offset: -1px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.review_img_gms{
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  outline: 1px solid #BEBEBE;
+  outline-offset: -1px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-width: 250px;
+  max-width: 100%;
+}
+
+.m_review_margin_gms{
+  margin-bottom: 10px;
+}
+.m_review_padding_gms{
+  padding-bottom: 0px;
+}
+.m_review_showing_gms {
+  display: none;
+}
+.move30_right_gms{
+  transform: none;
+}
+.move30_left_gms{
+  transform: none;
+}
+
+.center_image_gms:hover {
+  outline: none;
+  transform: none;
+  outline: 1px solid #BEBEBE;
+  outline-offset: -1px;
+}
+
+.more_button-wrapper_gms {
+  position: relative;
+  padding-bottom: 220px;
+  padding-top: 20px;
+}
+
+.more_button_gms {
+  background-color: #FE663F; 
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 110px;
+  height: 37px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  }
+}
+@media (max-width: 500px) {
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+.center_image_gms{
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  outline: 1px solid #BEBEBE;
+  outline-offset: -1px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-width: 180px;
+  max-width: 100%;
+}
+
+.review_img_gms{
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  outline: 1px solid #BEBEBE;
+  outline-offset: -1px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-width: 140px;
+  max-width: 100%;
+}
+
+.m_review_margin_gms{
+  margin-bottom: 10px;
+}
+.m_review_padding_gms{
+  padding-bottom: 0px;
+}
+.m_review_showing_gms {
+  display: none;
+}
+.move30_right_gms{
+  transform: none;
+}
+.move30_left_gms{
+  transform: none;
+}
+
+.center_image_gms:hover {
+  outline: none;
+  transform: none;
+  outline: 1px solid #BEBEBE;
+  outline-offset: -1px;
+}
+
+.more_button-wrapper_gms {
+  position: relative;
+  padding-bottom: 220px;
+  padding-top: 20px;
+}
+
+.more_button_gms {
+  background-color: #FE663F; 
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 110px;
+  height: 37px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  }
+}
+

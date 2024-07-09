@@ -1,0 +1,500 @@
+$or-color: #983016;
+
+@media (min-width: 1400px) {
+    #hd_yys {
+        .gnb_a {
+            display: block !important;
+        }
+    }
+}
+
+@media (max-width: 998px) {
+    #hd_yys {
+        .gnb_a {
+            display: none !important;
+        }
+        .login {
+            margin-left: auto !important;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-right: 0;
+        }
+    }
+    #mainbanner_yys {
+        .swiper {
+            padding: 0;
+            .swiper-slide.swiper-slide-active {
+                position: relative;
+                transform: scale(1.2) !important;
+                z-index: 10000 !important;
+                padding: 0 !important;
+            }
+            .swiper-pagination {
+                padding: 0 !important;
+                bottom: unset !important;
+                span {
+                    width: 7px !important;
+                    height: 6px !important;
+                    border-radius: 100% !important;
+                }
+            }
+        }
+        h1 {
+            img {
+                transform: scale(0.5);
+                min-width: 74px; /* 원하는 너비로 조정 */
+                height: auto; /* 이미지의 가로 세로 비율을 유지하면서 크기 조정 */
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    #hd_yys {
+        .gnb_a {
+            display: none !important;
+        }
+        .login {
+            margin-left: auto !important;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            margin-right: 0;
+        }
+    }
+    #mainbanner_yys {
+        .swiper {
+            padding: 0 !important;
+            .swiper-pagination {
+                padding: 0 !important;
+                bottom: unset !important;
+                span {
+                    width: 7px !important;
+                    height: 6px !important;
+                    border-radius: 100% !important;
+                }
+            }
+            .swiper-slide.swiper-slide-active {
+                position: relative;
+                transform: scale(1) !important;
+                z-index: 10000 !important;
+                padding: 0 !important;
+            }
+        }
+        h1 {
+            img {
+                transform: scale(0.5);
+                min-width: 74px; /* 원하는 너비로 조정 */
+                height: auto; /* 이미지의 가로 세로 비율을 유지하면서 크기 조정 */
+            }
+        }
+    }
+}
+@mixin flex-center {
+    display: $display-flex;
+    justify-content: $justify-center;
+    align-items: $align-center;
+  }
+
+.flexbetween_yys{
+   display: flex !important;
+   justify-content:space-between !important;
+   align-items: center !important;
+  }
+.flexcenter{
+   display: flex !important;
+   justify-content:center !important;
+   align-items: center !important;
+}
+
+
+.jcc{
+    justify-content: center !important;
+}
+.jcb{
+    justify-content: space-between !important;
+}
+.aic{
+    align-items: center !important;
+}
+.rel{
+    position: relative !important;
+}
+.abs{
+    position: absolute !important;
+}
+a {
+    text-decoration: none !important;
+}
+
+
+
+   
+
+    
+        
+    
+
+#hd_yys{
+    
+    background-color: #ffffff !important;
+    position: fixed;
+    padding: 0 48px;
+    z-index: 1000000;
+    .gnb
+    {
+                &:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 100%;
+                    height: 0;
+                    transition: 0.5s;
+                    background-color: #ff6943 !important;
+                    border-bottom: none !important;
+                    margin-bottom: 0 !important;
+                }
+            
+                &:hover {
+                    &:before {
+                        content: "";
+                    height: 190px;
+                    border-bottom: 1px solid #cc5638 !important;
+                    transition: height 0.5s;
+                    }
+                    
+                    .gnb_li{
+                        padding:0 80px;
+                        .gnb_ul{
+                            height: 180px;
+                            
+                        }
+                    }
+                    
+                    
+                }
+                
+                .gnb_li{
+                    position: relative;
+                    transition: 0.5s;
+                    &:hover{
+                       
+                        .gnb_a{
+                            span{
+                                    
+                                    line-height: 100px;
+                                    font-family: "Pretendard";
+                                    font-size: 22px;
+                                    font-weight: 400;
+                                    color: #ff6943; 
+                                    
+                                    &:before {
+                                       
+                                         
+                                                    width: 40%;
+                                               
+                                  
+                                        
+                                    }
+                            }
+                           
+                            
+                            
+                        }
+                       
+                        
+                        
+                    }
+                    
+                    .gnb_a{
+                                    line-height: 100px;
+                                    font-family: "Pretendard";
+                                    font-size: 22px;
+                                    font-weight: 400;
+                                    color: #414b5a;
+                                    span{
+                                       &:before {
+                                       
+                                        content: "";
+                                        // left: 35px;
+                                                // right: 35px;
+                                                transform: translateX(-50%);
+                                                left: 50%;
+                                                height: 4px;
+                                                top: 81px;
+                                                width: 0;
+                                             
+                                                position: absolute;
+                                                z-index: 1000000;
+                                                background: #ff6943;
+                                                border-radius: 3px;
+                                                transition: all 0.4s;
+                                    }
+                                    
+                                }
+                    }
+                }
+                .gnb_ul {
+                            overflow: hidden;
+                            height: 0;
+                            top: 100%;
+                            // margin-top: 30px !important;
+                            transition: height 0.2s;
+                            // left: -93px;
+                            transform: translateX(-50%);
+                            left: 50%;
+                            padding: 0;
+                            text-align: center;
+                            white-space: nowrap !important;
+                            position: absolute;
+                            
+                            min-width: 150px;
+                      
+                            &:after,
+                            &:before {
+                              content: "";
+                              display: block;
+                              height: 40px;
+                            }
+                      
+                            a {position: relative;
+                                font-family: "Pretendard";
+                                font-size: 18px;
+                                font-weight: 400;
+                                color: #414b5a;
+                                display: block;
+                                height: 50px;
+                      
+                              &:hover {
+                                font-family: "Pretendard";
+                                font-size: 18px;
+                                font-weight: 400;
+                                color: #ffffff;
+                                display: block;
+                                height:50px;
+                                
+                                    span{
+                                        
+                                        &:before{
+                                            content: "";
+                                            transform: translateX(-50%);
+                                            left: 50%;
+                                            position: absolute;
+                                            z-index: 1000000;
+                                            top: -14%;
+                                            width: 30%;
+                                            border-top:1.5px solid #ffffff;
+                                            padding: 5px 0;
+                                            transition: 0.2s;
+                                        }
+                                        
+                                        
+                                    } 
+                                }
+                                span{
+                                    &::before{
+                                        content: "";
+                                        transform: translateX(-50%);
+                                                left: 50%;
+                                        width: 0%;
+                                    }
+                                }
+                               
+                            }
+                            span{
+                                &::before{
+                                    content: "";
+                                    
+                                    width: 0;
+                                    
+                                }
+                            } 
+                    
+                         }           
+    }        
+
+    .font_login_pyj{
+        font-family: "Pretendard";
+        font-size: 14px;
+        font-weight: 400;
+        color: #414B5A;
+        list-style: none;
+        &:hover { 
+            color: #FF6943;
+        }
+    }
+    // hover 추가 완료
+}
+#mainbanner_yys{
+    overflow: hidden;
+    // padding: 100px 0 200px 0;
+    // #mainbanner_yys 에서 .mainbanner_pyj로 새로 class 만듬
+    // padding: 100px 0 200px 0; 에서 padding: 100px 0 40px 0;으로 수정함 - pyj(5/23)
+}
+.mainbanner_pyj{
+    padding: 100px 0 80px 0;
+}
+.main_image_center_yys{
+    max-width: 1400px;
+    border-radius: 20px;
+  }
+  .main_image_side_yys{
+    max-width: 1000px;
+    border-radius: 20px;
+  }
+  .dja_yys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #pagination{
+    top:740px;
+    position: relative;
+    width: 137px;
+    height: 16px;
+    display: flex !important;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            width: 137px;
+            height: 16px;
+            
+            li{
+                
+                width: 17px;
+                height: 16px;
+                background-color: #D9D9D9;
+                border-radius: 30px;
+                padding: 0;
+                margin: 5px;
+                &:hover{
+                    background-color: #797979;
+                }
+
+                a{
+                    width: 17px;
+                    height: 16px;
+                    display: block;
+                }
+            }
+        }
+  }
+
+  #collab_banner_yys{
+   
+
+
+    background-image: url(../img/img_yys/collab_banner_yys_2.png);
+    max-width: 1400px;
+    margin: 0 auto;    
+    background-repeat: no-repeat;
+    border-radius: 20px;    
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-position: right center;
+    background-size: auto 100%;
+    font-family: 'Pretendard';
+    background-color: #BFEFFA !important;
+    margin-top: 20px;
+    margin-bottom: 150px;
+
+    .collab_img{
+        padding:15px 0;       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .collab_font_yysH2{          
+            letter-spacing: -0.5px;            
+            font-size: 30px;    
+        }
+        .collab_font_yysP{             
+            letter-spacing: -0.7px;            
+            font-size: 20px;
+
+        }
+        .collab_font_yysPt{
+       
+            line-height: 17px;
+            letter-spacing: -0.6px;          
+            font-size: 16px;
+            font-weight: 400;
+        }
+        a{
+            color: #3B3B3B !important;
+        }
+    
+    }
+
+  }
+
+  #event_banner_yys{
+    .banner_img{
+        background: url(../img/img_yys/svg/eventBanner_yys.svg) no-repeat center;
+        background-size: cover;
+        padding:30px 0;
+        margin: 0 auto;
+        max-width: 1920px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a{
+            display: block;
+        }
+
+
+
+    }
+    .event_font_yysH2{
+        display: flex;
+        position: absolute;
+        line-height: 1.5rem;
+        letter-spacing: -0.5px;
+        font-family: 'Pretendard';
+        font-size: 31px;
+        font-weight: 600;
+        padding:0 30px;
+        left: 598px;
+        margin-bottom: 0;
+
+    }
+    .event_font_yysP{
+        display: flex;
+        position: absolute;
+        right: 536px;
+        line-height: 1.5rem;
+        letter-spacing: -0.5px;
+        font-family: 'Pretendard';
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 0;
+
+    }
+
+  }
+
+
+  
+    
+
+
+  
+
+    
+
+ 
+    
+
+
+
+
+

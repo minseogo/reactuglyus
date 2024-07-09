@@ -1,0 +1,132 @@
+.font_f30bold {
+  font-family: 'Pretendard';
+  font-size: 30px;
+  font-weight: 700;
+  color: #1F2937; /* $uglyblack 대신 직접 색상 값 사용 */
+}
+
+.font_f18regular {
+  font-family: 'Pretendard';
+  font-size: 18px;
+  font-weight: 500;
+  color: #414B5A; /* $uglygray 대신 직접 색상 값 사용 */
+}
+.font_f14light {
+  font-family: 'Pretendard';
+  font-size: 14px;
+  font-weight: 300;
+  color: #414B5A; /* $uglygray 대신 직접 색상 값 사용 */
+}
+.adbanner_jjh{
+  height: 15vw;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.trans_jjh{
+  transform: translate(-15%, -28%);
+  border-radius: 20px;
+}
+#store_jjh{
+.swiper-container {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.swiper-slide img {
+  max-height: 100%;
+  transition: transform 0.3s ease; /* 이미지 크기 변화에 대한 부드러운 전환을 추가합니다. */
+  object-fit: cover;
+  transform: scale(0.5);
+  transform-origin: center bottom;
+  
+
+}
+
+.swiper-slide.swiper-slide-active img {
+  transform: scale(1); /* 활성화된(가운데) 이미지는 원래 크기의 1.2배로 확대됩니다. */
+  z-index: 10000 !important;
+  position: relative !important;
+  
+}
+
+.btn-orange{
+  background-color: #FE663F;
+  color: white;
+  border-radius: 20px;
+  // border-radius: 20%;을 border-radius: 20px;로 수정
+  font-family: 'Pretendard';
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  // common.scss에 있는 font_button 스타일로 수정
+  // font-size / font-weight / letter-spacing 3개
+  
+}
+.scaled-image{
+  transform: scale(0.5);
+}
+
+ul{
+  padding-left: -0;
+}
+
+.btn-orange {
+  background-color: #FE663F;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: #FF2F2F;
+}
+
+// .swiper-slide-prev img,
+// .swiper-slide-next img{
+//   transform: scale(0.5);
+//   transform-origin: center bottom; 
+// }
+
+.rotate_3 {
+  transform: rotate(3deg);
+}
+.margin_v{
+  margin-bottom: -250px;
+}
+.margin_t{
+  margin-top: 80px;
+}
+.image-wrapper{
+  background-image: url('./img/img_jjh/SVG/carrot.svg'){
+  
+  }
+}
+.bg_svg {
+  background-image: url('./img/img_jjh/SVG/carrot.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img_position_jjh{
+  left:-60px; 
+  top: -7px;
+}
+.text_position_jjh{
+  width: 90%; 
+  left: 80%;
+}
+.carrot_z{
+  z-index: 1000;
+}
+}
