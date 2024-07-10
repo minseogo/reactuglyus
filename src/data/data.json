@@ -1,0 +1,246 @@
+{
+    "hd_yys" : [
+            {
+                "gnbnm" : "우리의미션",
+                "gnbhref" : "us_misson.html",        
+                "gnbsub" : [
+                    {
+                        "subnm" : "미션",
+                        "subhref" : "mission.html"
+                    },
+                    {
+                        "subnm" : "소싱철학",
+                        "subhref" : "sourcing.html"
+                    }
+                ]
+            },
+            {
+                "gnbnm" : "정기배송",
+                "gnbhref" : "delivery.html",
+                "gnbsub" : [
+                    {
+                        "subnm" : "후기",
+                        "subhref" : "review.html"
+                    },
+                    {
+                        "subnm" : "혜택",
+                        "subhref" : "benefit.html"
+                    },
+                    {
+                        "subnm" : "이용안내",
+                        "subhref" : "guide.html"
+                    }
+                ]
+            },
+            {
+                "gnbnm" : "싱싱마켓",
+                "gnbhref" : "market.html",
+                "gnbsub" : [
+                    {
+                        "subnm" : "인기상품",
+                        "subhref" : "best.html"
+                    },
+                    {
+                        "subnm" : "대기중인상품",
+                        "subhref" : "stand_by.html"
+                    }
+                ]
+            },
+            {
+                "gnbnm" : "커뮤니티",
+                "gnbhref" : "community.html",
+                "gnbsub" : [
+                    {
+                        "subnm" : "오늘의 레시피",
+                        "subhref" : "recipe.html"
+                    },
+                    {
+                        "subnm" : "채소이야기",
+                        "subhref" : "vege_story.html"
+                    },
+                    {
+                        "subnm" : "어글리어스 밥풀루언서",
+                        "subhref" : "bobfluencer.html"
+                    }
+                ]
+            }
+    ],
+    "mainbanner_yys" : [
+        {
+            "mainsrc" : "./img/img_yys/img/main_gms.jpg",
+            "plus" : "#"
+        },
+        {
+            "mainsrc" : "./img/img_yys/img/main_pyj.jpg",
+            "plus" : "#"
+        },
+        {
+            "mainsrc" : "./img/img_yys/img/main_jjh.jpg",
+            "plus" : "#"
+        }
+    ],
+    "store_jjh" : [
+        {
+            "storesrc" : "./img/img_jjh/PNG/bok_choy.png",
+            "storetitle" : "조금 크게 자랐을뿐|오히려 튼튼해요",
+            "storesub" : "경찰청 철창살 '청경채'",
+            "storetag" : "#야채경찰 #잡았다 요X #밥은 먹고 다니냐?",
+            "storehref" : "#"
+        },
+        {
+            "storesrc" : "./img/img_jjh/PNG/carrot.png",
+            "storetitle" : "땅 속에서 여러갈래로|뻗어 자랐어요",
+            "storesub" : "'당근'이세요?",
+            "storetag" : "#연락|#기다려요|#당근X켓",
+            "storehref" : "#"
+        },
+        {
+            "storesrc" : "./img/img_jjh/PNG/lemon.png",
+            "storetitle" : "자연 그대로의|거친 껍질을 자랑해요",
+            "storesub" : "내 거친 생각과 '레몬'",
+            "storetag" : "#사랑해요 #임재범 #지구뿌셔",
+            "storehref" : "#"
+        },
+        {
+            "storesrc" : "./img/img_jjh/PNG/Mushroom.png",
+            "storetitle" : "독특한 모자를 써서|더욱 귀여워요!",
+            "storesub" : "'양송이 버섯'커 버섯커",
+            "storetag" : "#흔들리는 양송이 속에서 #네 버섯향 느껴진 거야",
+            "storehref" : "#"
+        },
+        {
+            "storesrc" : "./img/img_jjh/PNG/cucumber.png",
+            "storetitle" : "쭉 뻗은 날씬 오이와|같은 밭에서 자랐어요",
+            "storesub" : "52'오이'",
+            "storetag" : "#거기 #내 자리 #비켜",
+            "storehref" : "#"
+        }
+    ],
+    "recipe_yjy" : [
+        {
+            "recipesrc" : "./img/img_yjy/recipe/Jeonju_Bibimbap.jpg",
+            "recipetitle" : "한끼뚝딱 전주비빔밥",
+            "recipesub" : "윤주연 님",
+            "recipetag" : "#한식 #시금치 #당근",
+            "recipehref" : "#"
+        },
+        {
+            "recipesrc" : "./img/img_yjy/recipe/Vietnamese spring _roll.jpg",
+            "recipetitle" : "한 입 가득 월남쌈",
+            "recipesub" : "정장훈 님",
+            "recipetag" : "#볼 빵빵 #새싹채소 #파프리카",
+            "recipehref" : "#"
+        },
+        {
+            "recipesrc" : "./img/img_yjy/recipe/cucumber.jpg",
+            "recipetitle" : "아삭아삭 오이소박이",
+            "recipesub" : "박연주 님",
+            "recipetag" : "#새콤달콤 #오이 #부추",
+            "recipehref" : "#"
+        },
+        {
+            "recipesrc" : "./img/img_yjy/recipe/Jjambbong.jpg",
+            "recipetitle" : "해장엔? 짬뽕",
+            "recipesub" : "윤여선 님",
+            "recipetag" : "#칼칼한 #청경채 #콩나물",
+            "recipehref" : "#"
+        },
+        {
+            "recipesrc" : "./img/img_yjy/recipe/pumpkin_porridge.jpg",
+            "recipetitle" : "달콤한 호박죽",
+            "recipesub" : "방보영 님",
+            "recipetag" : "#든든한 #단호박 #잣",
+            "recipehref" : "#"
+        },
+        {
+            "recipesrc" : "./img/img_yjy/recipe/Mille_Feuille Nabe.jpg",
+            "recipetitle" : "한 솥 가득 밀푀유나베",
+            "recipesub" : "고민서 님",
+            "recipetag" : "#집들이 #배추 #버섯",
+            "recipehref" : "#"
+        }
+    ],
+
+    "map_pyj" : [
+        {   
+            "location" : "35.5665|128.1654",
+            "pronm" : "권두보",
+            "propic" : "./img/img_pyj/map/strawberryjam_pyj.png",
+            "protitle" : "자연 그대로|건강하고 정직한|딸기로 만들었습니다.",
+            "protext" : "딸기 농사를 지은지 벌써 20년이 넘었네요. 저는 제가 살려고 유기농을 시작했다보니 어떻게 하면 더 건강한 농산물을 만들까가 농사의 제 1 기준이에요. 홈페이지를 봤는데 친환경 가치에 공감하고 지지하는 고객분들이 많이 보였어요. 여러분에게 정말 건강하게 자란 딸기를 꼭 맛보여드리고 싶습니다.",
+            "prohref" : "#"
+        },      
+        {   
+            "location" : "35.4352|126.7019",
+            "pronm" : "배상일, 최미경",
+            "propic" : "./img/img_pyj/map/ssamsaled_pyj.jpeg",
+            "protitle" : "그날그날|가장 신선하고|먹기 좋게 자란 쌈채소",
+            "protext" : "맑은땅, 맑은물로 정직하게 키운 친환경 농산물입니다.  처음 농사를 배울때 농작물에 뿌려지는 엄청난 양의 화학 농약들을 보면서 충격을 많이 받았어요. 그래서 독한 화학농약과 비료등을 일절 사용하지 않고, 비용이 많이 들더라도 유기농업자재의 기준을 통과한 인증 제품만을 사용합니다. 생김새도 맛도 다양한 쌈채소가 주는 아삭아삭 신선한 식감과 특유의 향을 느껴보세요!",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "36.3496|126.6174",
+            "pronm" : "김보석",
+            "propic" : "./img/img_pyj/map/mushroom_pyj.jpg",
+            "protitle" : "쫄깃쫄깃|향긋하고 신선한|브라운양송이버섯",
+            "protext" : "충남 보령시 성주면, 해발고도 300m에 위치한 농장에서 청정한 산 공기와 지하수로 깨끗하고 맛있는 버섯을 재배하고 있어요. 양송이버섯은 퇴비의 온도, 습도, 물의 양 등에 민감하게 반응하기 때문에 매일매일 살피며 정성을 다해 재배하고 있어요. 조금이라도 조건이 맞지 않으면 썩거나 무르기 쉽고, 푸른 곰팡이가 퍼질 수 있거든요. 60일간 정성껏 기른 개성만점의 브라운양송이버섯, 맛있게 즐겨주세요!",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "37.8944|127.2002",
+            "pronm" : "오경훈",
+            "propic" : "./img/img_pyj/map/papaya_pyj.jpg",
+            "protitle" : "부드럽고|달콤한 열대의 맛|파파야를 우리 땅에서",
+            "protext" : "이제 친환경 농업도 기술과 사람, 자연의 조화를 적극적으로 고민해야 해요. 1985년도 미국 브루클린, 샐러드를 수직 재배하는 시티팜을 처음 접하고 농가의 생산량과 소득보전, 유통거리 단축까지 만드는 기술에 심장이 뛰었어요. 급변하는 기상 환경을 보며 한시라도 빨리 선진 기술을 접목한 농법을 시작해 재배 안정성을 갖추어야 한다고 생각했어요. 그렇게 스마트팜을 활용한 파파야 재배에 과감하게 도전해 올 해 처음 그 결실을 맺게 되었어요.",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "35.9197|128.2825",
+            "pronm" : "이희송",
+            "propic" : "./img/img_pyj/map/Koreanmelon_pyj.jpeg",
+            "protitle" : "땅에 좋은 것이|사람에게도 좋은 것|우리 땅 우리 참외.",
+            "protext" : "성주는 국내 참외 생산량의 70~80%를 담당하는 최대 산지이지만 유기농 참외는 0.5%밖에 되지 않습니다. 참외는 농약와 화학 비료 사용을 하지 않는 유기 재배가 정말 어려운 작물로 시장에서는 일반 참외들과의 가격 경쟁에서 밀려 소비량이 줄어들고, 생업을 위해 유기농 참외 농사를 포기하는 경우가 많아지고 있는 것이죠. 저는 땅과 사람에 대한 신념으로 20년간 참외 유기재배를 고집하고 있습니다. 맑고 깨끗한 땅의 힘으로 자란 귀한 참외를 여러분에게 소개합니다.",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "36.2754|126.9098",
+            "pronm" : "장지환",
+            "propic" : "./img/img_pyj/map/bam_pyj.png",
+            "protitle" : "유기자재|천연비료로 건강하게|안심하고 먹을 수 있는 밤",
+            "protext" : "화학비료를 사용하면 나무도 열매도 더 크고 빨리 자랍니다. 하지만 제 속도에 맞추어 자라지 못한 밤 나무는 금방 약해지고, 겉보기에 크기는 크지만 속살은 무른 밤들이 많이 납니다.  나무의 건강과 알찬 밤을 위해 계분과 톱밥을 발효시킨 비료와 유기질 비료를 사용하고있습니다. 시간도 비용도 화학비료보다 더 많이 들지만 보다 친환경적인 재배를 위해 노력하고 있어요. 특유의 육질이 단단하고, 씹을 수록 은은하게 올라오는 고소함과 단맛을 느껴보세요!",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "35.2271|128.6811",
+            "pronm" : "남기하",
+            "propic" : "./img/img_pyj/map/gam_pyj.jpg",
+            "protitle" : "가을의 빛깔을 담은|아삭하고 달콤한|창원 단감",
+            "protext" : "40년. 부모님께서 단감을 키워 온 시간이에요. 15,000평이 넘는 땅에서 매일 소중히 감나무를 돌보시는 두 분을 보며, 저도 농사를 짓게 되었어요. 부모님의 재배 기술과 노하우를 바탕으로 맛있는 감을 생산해 2022년 ‘창원 단감축제 품평회’에서는 대상을 받기도 했어요.  하지만 저는 여기서 그치지 않고 내년부터는 단감 마이스터 과정까지 밟아 더 맛있고 건강한 감을 생산할 예정입니다.",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "35.3011|126.7844",
+            "pronm" : "유인한",
+            "propic" : "./img/img_pyj/map/Europegrape_pyj.jpg",
+            "protitle" : "한 송이 송이에|정성이 가득한|무농약 유럽종 포도",
+            "protext" : "처음 농사를 시작할 때 부터 포도의 매력에 흠뻑 빠져, 포도를 팔아서 들어온 수입 모두 농업교육비로 쓰실 정도로 포도를 깊이 연구했어요. 유럽종 포도는 고온건조한 기후에서 자라기 때문에 우리나라에서는 적합한 기후가 아님에도 불구하고 저의 포도는 유럽종 포도의 머스켓향과 품종마다의 특징을 고스라니 간직해 건강하게 컸어요. 지금까지 열심히 쌓아온 자연수정 재배기술로 포도 한 송이 송이 손수 관리 ・ 수확하고 있습니다.",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "35.8252|128.7415",
+            "pronm" : "조이혁",
+            "propic" : "./img/img_pyj/map/daechu_pyj.png",
+            "protitle" : "왕 커서 왕 맛있다!|쫄깃 달콤한 건사과대추!",
+            "protext" : "36년째 대를 이어 농장을 경영하면서 대추 외길을 걸어왔어요. 농학을 전공하고 우리나라에 존재하지 않던 사과대추 ‘대능’ 품종도 새롭게 개발했지요. 17여년 전 지인에게 중국의 사과대추를 소개받자마자 중국으로 건너갔어요. 당시 과실의 크기와 형태가 각양각색이었지만 묘목농장을 경영한 노하우를 살려 맛과 식감이 좋은 사과대추 품종을 만드는데 성공했습니다. 경산은 대추 재배에 최적화된 기후와 토양을 가지고 있어요. 덕분에 전국 대추 생산량의 40%를 차지하고 있답니다. 이 중에서도 사과대추는 한 번 맛보면 잊을 수 없는 뛰어난 식감과 높은 당도를 자랑해요.",
+            "prohref" : "#"
+        },    
+        {   
+            "location" : "36.7896|127.0017",
+            "pronm" : "유도원",
+            "propic" : "./img/img_pyj/map/merupodo_pyj.jpg",
+            "protitle" : "자연스럽게 자라|열매를 맺고 있는|신선하고 달콤한 포도",
+            "protext" : "50년 전 처음 농사를 시작할 때는 화학농법으로 재배했어요. 그런데 점점 건강이 악화되어 병원신세를 지게 되었고 ‘이렇게 농사 지으면 안되겠구나’라는 생각이 들어 바로 유기농법을 시작했어요. 그렇게 시작한 유기농 포도농사가 20년. 첫 시작 당시에는 정말 힘들게 유기농 포도농사를 시도했어요. 당시에는 인터넷 판매도 활발하지 않아 어려움 끝에 재배해도 적절한 판로를 찾기 어려웠기에 포도농사 자체를 포기할 뻔한 적도 있지만, 남겨둔 포도나무의 맛이 너무 아깝단 생각에 다시 시작하여 지금까지 이어오고 있습니다. 20년 세월이 담긴 저의 포도, 맛은 정말로 자신할 수 있습니다.",
+            "prohref" : "#"
+        }  
+    ]
+}
