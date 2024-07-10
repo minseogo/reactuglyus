@@ -64,47 +64,92 @@
 }
 
 
-.pretendard-black {
+.pre-blk {
     font-family: 'Pretendard';
     font-weight: 900;
 }
 
-.pretendard-extrabold {
+.pre-xbd {
     font-family: 'Pretendard';
     font-weight: 800;
 }
 
-.pretendard-bold {
+.pre-bd {
     font-family: 'Pretendard';
     font-weight: 700;
 }
 
-.pretendard-semibold {
+.pre-sbd {
     font-family: 'Pretendard';
     font-weight: 600;
 }
 
-.pretendard-medium {
+.pre-md {
     font-family: 'Pretendard';
     font-weight: 500;
 }
 
-.pretendard-regular {
+.pre-rg {
     font-family: 'Pretendard';
     font-weight: 400;
 }
 
-.pretendard-light {
+.pre-lt {
     font-family: 'Pretendard';
     font-weight: 300;
 }
 
-.pretendard-extralight {
+.pre-xlt {
     font-family: 'Pretendard';
     font-weight: 200;
 }
 
-.pretendard-thin {
+.pre-th {
     font-family: 'Pretendard';
+    font-weight: 100;
+}
+
+.rubik-blk {
+    font-family: 'Rubik';
+    font-weight: 900;
+}
+
+.rubik-xbd {
+    font-family: 'Rubik';
+    font-weight: 800;
+}
+
+.rubik-bd {
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+
+.rubik-sbd {
+    font-family: 'Rubik';
+    font-weight: 600;
+}
+
+.rubik-md {
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+
+.rubik-rg {
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+.rubik-lt {
+    font-family: 'Rubik';
+    font-weight: 300;
+}
+
+.rubik-xlt {
+    font-family: 'Rubik';
+    font-weight: 200;
+}
+
+.rubik-th {
+    font-family: 'Rubik';
     font-weight: 100;
 }
