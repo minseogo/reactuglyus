@@ -1,0 +1,77 @@
+.font_button_pyj {
+  font-family: "Pretendard";
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  letter-spacing: -0.5px;
+  line-height: 1.5rem;
+}
+@media (max-width: 990px) {
+  .font_button_pyj {
+    font-size: 12px;
+  }
+}
+
+.quickIcon {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+#quick_pyj {
+  position: fixed;
+  bottom: calc(10vh - 55px);
+  right: 35px;
+  width: 70px;
+}
+#quick_pyj.showmenu .radishQuick ul {
+  height: 337px;
+}
+#quick_pyj.showmenu .radishQuick > a {
+  filter: invert(38%) sepia(52%) saturate(535%) hue-rotate(56deg) brightness(95%) contrast(90%);
+}
+#quick_pyj .radishQuick:before {
+  content: "";
+  display: block;
+  padding-top: 62px;
+  background: url("/image/img_pyj/quick/radish_head.svg") center no-repeat;
+  background-size: 100% auto;
+}
+#quick_pyj .radishQuick ul {
+  background-color: #F1EBE5;
+  height: 0;
+  transition: 0.5s;
+  overflow: hidden;
+}
+#quick_pyj .radishQuick ul li {
+  background: url("/image/img_pyj/quick/radish_bodyline.svg") right bottom no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  padding: 10px 0;
+}
+#quick_pyj .radishQuick ul li img {
+  width: calc(100% - 35px);
+  display: block;
+  margin: 0 auto;
+}
+#quick_pyj .radishQuick ul li a {
+  text-decoration: none;
+}
+#quick_pyj .radishQuick ul li a:hover {
+  filter: invert(38%) sepia(52%) saturate(535%) hue-rotate(56deg) brightness(95%) contrast(90%);
+}
+#quick_pyj .radishQuick > a {
+  display: block;
+  height: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+#quick_pyj .radishQuick:after {
+  content: "";
+  display: block;
+  padding-top: 65px;
+  background: url("/image/img_pyj/quick/radish_bottomline.svg") 0px center no-repeat #F1EBE5;
+  background-size: 100% auto;
+  border-radius: 0 0 35px 35px;
+  background-position: 2px center;
+}

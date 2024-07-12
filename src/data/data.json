@@ -83,35 +83,40 @@
         {
             "storesrc" : "./img/img_jjh/PNG/bok_choy.png",
             "storetitle" : "조금 크게 자랐을뿐|오히려 튼튼해요",
-            "storesub" : "경찰청 철창살 '청경채'",
+            "storenm" : "청경채",
+            "storesub" : "경찰청 철창살",
             "storetag" : "#야채경찰 #잡았다 요X #밥은 먹고 다니냐?",
             "storehref" : "#"
         },
         {
             "storesrc" : "./img/img_jjh/PNG/carrot.png",
             "storetitle" : "땅 속에서 여러갈래로|뻗어 자랐어요",
-            "storesub" : "'당근'이세요?",
+            "storenm" : "당근",
+            "storesub" : "이세요?",
             "storetag" : "#연락|#기다려요|#당근X켓",
             "storehref" : "#"
         },
         {
             "storesrc" : "./img/img_jjh/PNG/lemon.png",
             "storetitle" : "자연 그대로의|거친 껍질을 자랑해요",
-            "storesub" : "내 거친 생각과 '레몬'",
+            "storenm" : "레몬",
+            "storesub" : "내 거친 생각과",
             "storetag" : "#사랑해요 #임재범 #지구뿌셔",
             "storehref" : "#"
         },
         {
             "storesrc" : "./img/img_jjh/PNG/Mushroom.png",
             "storetitle" : "독특한 모자를 써서|더욱 귀여워요!",
-            "storesub" : "'양송이 버섯'커 버섯커",
+            "storenm" : "양송이 버섯",
+            "storesub" : "커 버섯커",
             "storetag" : "#흔들리는 양송이 속에서 #네 버섯향 느껴진 거야",
             "storehref" : "#"
         },
         {
             "storesrc" : "./img/img_jjh/PNG/cucumber.png",
             "storetitle" : "쭉 뻗은 날씬 오이와|같은 밭에서 자랐어요",
-            "storesub" : "52'오이'",
+            "storenm" : "오이",
+            "storesub" : "52",
             "storetag" : "#거기 #내 자리 #비켜",
             "storehref" : "#"
         }
@@ -175,7 +180,7 @@
             "pronm" : "배상일, 최미경",
             "propic" : "./img/img_pyj/map/ssamsaled_pyj.jpeg",
             "protitle" : "그날그날|가장 신선하고|먹기 좋게 자란 쌈채소",
-            "protext" : "맑은땅, 맑은물로 정직하게 키운 친환경 농산물입니다.  처음 농사를 배울때 농작물에 뿌려지는 엄청난 양의 화학 농약들을 보면서 충격을 많이 받았어요. 그래서 독한 화학농약과 비료등을 일절 사용하지 않고, 비용이 많이 들더라도 유기농업자재의 기준을 통과한 인증 제품만을 사용합니다. 생김새도 맛도 다양한 쌈채소가 주는 아삭아삭 신선한 식감과 특유의 향을 느껴보세요!",
+            "protext" : "맑은땅, 맑은물로 정직하게 키운 친환경 농산물입니다. 처음 농사를 배울때 농작물에 뿌려지는 엄청난 양의 화학 농약들을 보면서 충격을 많이 받았어요. 그래서 독한 화학농약과 비료등을 일절 사용하지 않고, 비용이 많이 들더라도 유기농업자재의 기준을 통과한 인증 제품만을 사용합니다. 생김새도 맛도 다양한 쌈채소가 주는 아삭아삭 신선한 식감과 특유의 향을 느껴보세요!",
             "prohref" : "#"
         },    
         {   
