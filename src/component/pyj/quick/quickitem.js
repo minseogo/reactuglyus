@@ -1,9 +1,9 @@
 function Quickitem() {
     const menuItems = [
-        { quickid: 1, quickhref: '#', quickSrc: '/image/img_pyj/quick/mypage.svg', quickAlt: '마이페이지', quicktext: '마이페이지' },
-        { quickid: 2, quickhref: '#', quickSrc: '/image/img_pyj/quick/market.svg', quickAlt: '싱싱마켓', quicktext: '싱싱마켓' },
-        { quickid: 3, quickhref: '#', quickSrc: '/image/img_pyj/quick/event.svg', quickAlt: '이벤트', quicktext: '이벤트' },
-        { quickid: 4, quickhref: '#', quickSrc: '/image/img_pyj/quick/service.svg', quickAlt: '고객센터', quicktext: '고객센터' }
+        { quickid: 1, quickhref: '#', quickSrc: '/img/img_pyj/quick/mypage.svg', quickAlt: '마이페이지', quicktext: '마이페이지' },
+        { quickid: 2, quickhref: '#', quickSrc: '/img/img_pyj/quick/market.svg', quickAlt: '싱싱마켓', quicktext: '싱싱마켓' },
+        { quickid: 3, quickhref: '#', quickSrc: '/img/img_pyj/quick/event.svg', quickAlt: '이벤트', quicktext: '이벤트' },
+        { quickid: 4, quickhref: '#', quickSrc: '/img/img_pyj/quick/service.svg', quickAlt: '고객센터', quicktext: '고객센터' }
     ];
     return (
         <>

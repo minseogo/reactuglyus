@@ -1,9 +1,12 @@
-import React from 'react'
+import Map from './component/pyj/map/Map'
 import Quickmenu from './component/pyj/quick/Quickmenu'
 
 function App() {
     return (
-        <Quickmenu></Quickmenu>
+        <>
+            <Map></Map>
+            <Quickmenu></Quickmenu>
+        </>
     )
 }
 

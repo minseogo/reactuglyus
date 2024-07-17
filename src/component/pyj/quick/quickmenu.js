@@ -1,4 +1,3 @@
-import '../../../scss/pyj.scss';
 import Quickitem from './Quickitem';
 import React, {useEffect} from "react";
 
@@ -24,7 +23,7 @@ const QuickMenu = () => {
                 <Quickitem></Quickitem>             
             </ul>
             <a href="#none" className='quickplusicon'>
-                <img src="/image/img_pyj/quick/plus.svg" alt="플러스" className='quickIcon' />
+                <img src="/img/img_pyj/quick/plus.svg" alt="플러스" className='quickIcon' />
             </a>
         </div>
       </aside>

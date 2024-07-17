@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Title = styled.h2`
     font-family: ${props => props.title ? "Rubik" : "Pretendard" } ;
-    font-size: ${props => props.title ? "38px" : props.tfontsize || "initial"}
-    font-weight: ${props => props.title ? "700" : props.weight || "initial"}
-    color: ${props => props.title ? "#FE663F" : props.color || "initial"};
+    font-size: 38px;
+    font-weight: 700;
+    color: #FE663F;
     letter-spacing: -0.5px;
     line-height: 2.5rem;
     @media (max-width: 990px) {
@@ -15,9 +15,9 @@ export const Title = styled.h2`
 
 export const Leadcopy = styled.p`
     font-family: ${props => props.leadcopy ? "Pretendard" : "Rubik"};
-    font-size: ${props => props.leadcopy ? "18px" : props.tfontsize || "initial"}
-    font-weight: ${props => props.leadcopy ? "600" : props.weight || "initial"}
-    color: ${props => props.leadcopy ? "#414B5A" : props.color || "initial"};
+    font-size: 18px;
+    font-weight: 600;
+    color: #414B5A;
     letter-spacing: -0.5px;
     line-height: 1.8rem;
     @media (max-width: 990px) {    
