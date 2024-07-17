@@ -18,9 +18,9 @@ https://github.com/minseogo/reactuglyus/blob/main/public/dataflow/dataflow.png
 # UXUI
 
 # 디지털소스관리
-public / jpg, gif, png 이미지 및 웹폰트 ( woff2 )
-src / 웹폰트가 아닌 폰트 및 svg
+- public / jpg, gif, png 이미지 및 웹폰트 ( woff2 )
+- src / 웹폰트가 아닌 폰트 및 svg
 
-# Data prototype
-1차 : https://github.com/minseogo/reactuglyus/commit/fd4635e64cbea639f61a028be5f511601cc31863
-2차 : 
+# DB
+- 1차 : https://github.com/minseogo/reactuglyus/commit/fd4635e64cbea639f61a028be5f511601cc31863
+- 2차 : https://github.com/minseogo/reactuglyus/commit/58431b95f90421999268457a0b900bc55aa2f343
