@@ -3,7 +3,7 @@ import mapData from '../../../data/data.json';
 
 const { kakao } = window;
 
-function Kakaomap() {
+function Kakaomap({ setTargetNum }) {
     useEffect(() => {
         const container = document.getElementById('kakaomap');
         const options = {
@@ -29,9 +29,10 @@ function Kakaomap() {
 
             kakao.maps.event.addListener(marker, 'click', () => {
                 console.log(index);
+                setTargetNum(index);
             });
         });
-    }, []);
+    }, [setTargetNum]);
 
     return (
         <div id="kakaomap" className="w-100 h-100" style={{ height: '500px' }}></div>
