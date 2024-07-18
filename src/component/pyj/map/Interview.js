@@ -6,8 +6,8 @@ function Interview() {
     const { mapinfo } = usdata.map_pyj;
     const [ targetnum, targetSet ] = useState(0);
 
-    const imageSrc = `.${usdata.map_pyj.dir}${mapinfo[targetnum].proimgnm}.${mapinfo[targetnum].proimgfile}`
-    const altText = mapinfo[targetnum].pronm;
+    const imageSrc = `.${usdata.map_pyj.dir}${mapinfo[targetnum]["proimgnm"]}.${mapinfo[targetnum]["proimgfile"]}`
+    const altText = mapinfo[targetnum]["pronm"];
     const protitleArray = mapinfo[targetnum].protitle.split('|');
     const interviewtext = mapinfo[targetnum].protext;
  
@@ -15,18 +15,19 @@ function Interview() {
         <div className='d-flex flex-lg-column flex-wrap'>
             <>
                 <div className='col-lg-12 col-6'>
-                    <img className='mapimg border-radius text_blank_pyj img-fluid' src={imageSrc} alt={`${mapinfo[targetnum].pronm} 생산자님`}/>
+                    <img className='mapimg border-radius text_blank_pyj img-fluid' src={imageSrc} alt={`${mapinfo[targetnum]["pronm"]} 생산자님`}/>
                 </div>
                 <div className='col-lg-12 col-6 ps-3 ps-lg-0 d-flex flex-column justify-content-between'>
                     <p className='font_subtitle_pyj text_blank_pyj'>
                         {
                             protitleArray.map((v , i)=>{
                                 return (
-                                        <>
-                                            { i === 0 && v + ' '}
-                                            { i === 1 && <span className="d-block d-xxl-inline">{v}</span> }
-                                            { i === 2 && <span className="d-block">{v}</span> }
-                                        </>
+                                        // <>
+                                        //     { i === 0 && v + ' '}
+                                        //     { i === 1 && <span className="d-block d-xxl-inline">{v}</span> }
+                                        //     { i === 2 && <span className="d-block">{v}</span> }
+                                        // </>   
+                                        i === 0 ? `${v} ` :  i === 1 ? <span key={`pro${i}`} className="d-block d-xxl-inline">{v}</span> : <span key={`pro${i}`} className="d-block">{v}</span>
                                     )
                                 })                         
                                                                     

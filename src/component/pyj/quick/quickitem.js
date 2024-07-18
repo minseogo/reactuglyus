@@ -1,19 +1,19 @@
 function Quickitem() {
     const menuItems = [
-        { quickid: 1, quickhref: '#', quickSrc: '/img/img_pyj/quick/mypage.svg', quickAlt: '마이페이지', quicktext: '마이페이지' },
-        { quickid: 2, quickhref: '#', quickSrc: '/img/img_pyj/quick/market.svg', quickAlt: '싱싱마켓', quicktext: '싱싱마켓' },
-        { quickid: 3, quickhref: '#', quickSrc: '/img/img_pyj/quick/event.svg', quickAlt: '이벤트', quicktext: '이벤트' },
-        { quickid: 4, quickhref: '#', quickSrc: '/img/img_pyj/quick/service.svg', quickAlt: '고객센터', quicktext: '고객센터' }
+        { quickhref: '#', quickSrc: '/img/img_pyj/quick/mypage.svg', quickAlt: '마이페이지', quickText: '마이페이지' },
+        { quickhref: '#', quickSrc: '/img/img_pyj/quick/market.svg', quickAlt: '싱싱마켓', quickText: '싱싱마켓' },
+        { quickhref: '#', quickSrc: '/img/img_pyj/quick/event.svg', quickAlt: '이벤트', quickText: '이벤트' },
+        { quickhref: '#', quickSrc: '/img/img_pyj/quick/service.svg', quickAlt: '고객센터', quickText: '고객센터' }
     ];
     return (
         <>
             {
-                menuItems.map((v, idx)=>{
+                menuItems.map((v, i)=>{
                     return(
-                        <li key={v.quickid}>
+                        <li key={`quick${i}`}>
                             <a href={v.quickhref}>
                                 <img src={v.quickSrc} alt={v.quickAlt} />
-                                <span className='font_button_pyj'>{v.quicktext}</span>
+                                <span className='font_button_pyj'>{v.quickText}</span>
                             </a>
                         </li>
                     )
