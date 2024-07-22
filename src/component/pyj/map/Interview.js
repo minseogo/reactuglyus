@@ -4,21 +4,21 @@ import usdata from '../../../data/data.json';
 function Interview({ targetnum }) {
     const { mapinfo } = usdata.map_pyj;
 
-    const imageSrc = `.${usdata.map_pyj.dir}${mapinfo[targetnum]["proimgnm"]}.${mapinfo[targetnum]["proimgfile"]}`;
+    const imageSrc = `.${usdata["map_pyj"]["dir"]}${mapinfo[targetnum]["proimgnm"]}.${mapinfo[targetnum]["proimgfile"]}`;
     const altText = mapinfo[targetnum]["pronm"];
-    const protitleArray = mapinfo[targetnum].protitle.split('|');
-    const interviewtext = mapinfo[targetnum].protext;
+    const protitleArray = mapinfo[targetnum]["protitle"].split('|');
+    const interviewtext = mapinfo[targetnum]["protext"];
 
     return (
         <div className='d-flex flex-lg-column flex-wrap'>
             <div className='col-lg-12 col-6'>
-                <img className='mapimg border-radius text_blank_pyj img-fluid' src={imageSrc} alt={`${mapinfo[targetnum].pronm} 생산자님`} />
+                <img className='mapimg border-radius text_blank_pyj img-fluid' src={imageSrc} alt={`${mapinfo[targetnum]["pronm"]} 생산자님`} />
             </div>
             <div className='col-lg-12 col-6 ps-3 ps-lg-0 d-flex flex-column justify-content-between'>
                 <p className='font_subtitle_pyj text_blank_pyj'>
                     {
                         protitleArray.map((v, i) => (
-                            i === 0 ? `${v} ` : i === 1 ? <span key={`pro${i}`} className="d-block d-xxl-inline">{v}</span> : <span key={`pro${i}`} className="d-block">{v}</span>
+                            i === 0 ? <span key={`pro${i}`} className="d-none d-lg-inline">{v} </span> : i === 1 ? <span key={`pro${i}`} className="d-block d-xxl-inline">{v}</span> : <span key={`pro${i}`} className="d-block">{v}</span>
                         ))
                     }
                 </p>

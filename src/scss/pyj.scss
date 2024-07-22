@@ -16,20 +16,8 @@ $uglygray : #414B5A;
   letter-spacing: -0.5px;
   line-height: 1.8rem;
   @media (max-width : 990px){
-    font-size: 30px;
-    line-height: 2.5rem;
-  }
-  @media (max-width : 690px){
-    font-size: 25px;
-    line-height: 2rem;
-  }
-  @media (max-width : 580px){
     font-size: 20px;
     line-height: 1.5rem;
-  }
-  @media (max-width : 450px){
-    font-size: 16px;
-    line-height: 1.2rem;
   }
 }
 .font_leadcopy_pyj{
@@ -40,20 +28,8 @@ $uglygray : #414B5A;
   letter-spacing: -0.5px;
   line-height: 1.8rem;
     @media (max-width : 990px){
-      font-size: 22px;
-      line-height: 5rem;
-    }
-    @media (max-width : 690px){
       font-size: 18px;
-      line-height: 4rem;
-    }
-    @media (max-width : 580px){
-      font-size: 16px;
       line-height: 3.5rem;
-    }
-    @media (max-width : 450px){
-      font-size: 14px;
-      line-height: 2.5rem;
     }
 }
 .font_text_pyj{
@@ -65,9 +41,6 @@ $uglygray : #414B5A;
   line-height: 1.5rem;
     @media (max-width : 990px){
       font-size: 14px;
-    }
-    @media (max-width : 450px){
-      font-size: 12px;
     }
 }
 
@@ -81,6 +54,14 @@ $uglygray : #414B5A;
     a{
       color: #fff;
       text-decoration: none;
+    }
+}
+
+// API 지도 크기
+.mapheight{
+  height: 522px;
+    @media (max-width : 990px) {
+      height: 250px;
     }
 }
 
@@ -265,6 +246,7 @@ $uglygray : #414B5A;
     }
   }
 }
+
 
 // #event_banner_yys{
 //   .event_banner_pyj{

@@ -15,7 +15,7 @@ function Map() {
 
             <div className='mx-3 pb-5'>
                 <div className='d-flex flex-wrap justify-content-between container'>
-                    <div className='col-lg-9 col-12'>
+                    <div className='col-lg-9 col-12 position-relative mapheight'>
                         <Kakaomap setTargetNum={setTargetNum} />
                         <span className='position-absolute w-0 h-0 d-block overflow-hidden opacity-0'>지도</span>
                     </div>

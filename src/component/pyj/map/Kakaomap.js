@@ -28,14 +28,13 @@ function Kakaomap({ setTargetNum }) {
             });
 
             kakao.maps.event.addListener(marker, 'click', () => {
-                console.log(index);
                 setTargetNum(index);
             });
         });
     }, [setTargetNum]);
 
     return (
-        <div id="kakaomap" className="w-100 h-100" style={{ height: '500px' }}></div>
+        <div id="kakaomap" className="w-100 h-100 position-absolute border-radius overflow-hidden"></div>
     );
 }
 
