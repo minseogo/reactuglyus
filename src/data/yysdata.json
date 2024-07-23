@@ -87,7 +87,39 @@
         "href": "consumer.html",
         "cls": ["d-flex px-0 my-0", "font_login", "nav-link me-0 font_login"]
       }
-    ]
+    ],
+    "slides": [
+        {
+          "img": "/img/png/main_gms.jpg",
+          "href": "https://www.naver.com/",
+          "text": "우리만의 가치로 세상을 더 가치있게",
+          "cls": ["bs"]
+        },
+        {
+          "img": "/img/png/main_img_yys.jpg",
+          "href": "https://www.naver.com/",
+          "text": "우리만의 가치로 세상을 더 가치있게",
+          "cls": ["bs"]
+        },
+        {
+          "img": "/img/png/main_jjh.jpg",
+          "href": "https://www.naver.com/",
+          "text": "우리만의 가치로 세상을 더 가치있게",
+          "cls": ["bs"]
+        },
+        {
+          "img": "/img/png/main_pyj.jpg",
+          "href": "https://www.naver.com/",
+          "text": "우리만의 가치로 세상을 더 가치있게",
+          "cls": ["bs"]
+        },
+        {
+          "img": "/img/png/main_yjy.jpg",
+          "href": "https://www.naver.com/",
+          "text": "우리만의 가치로 세상을 더 가치있게",
+          "cls": ["bs"]
+        }
+      ]
     
   }
   
