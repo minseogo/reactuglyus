@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import Mainbanner from './yys/Mainbanner';
 import Collabobanner from './yys/Collabobanner';
 import Sustainability from './jjh/Sustainability';
@@ -24,7 +23,6 @@ function Maincontent() {
             <Eventbanner />
             <Form />
          </>
-      
     );
 }
 
