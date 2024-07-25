@@ -65,6 +65,175 @@ $uglygray : #414B5A;
     }
 }
 
+// 폼 컨텐츠 css
+// 폼 폰트 
+.font_title_k_pyj{
+  font-family: 'Pretendard';
+  font-size: 30px;
+  font-weight: 700;
+  color: $uglyblack;
+  letter-spacing: -0.5px;
+  line-height: 2.5rem;
+    @media (max-width : 990px){
+      font-size: 22px;
+      line-height: 1.8rem;
+    }
+  }
+  .formfont_subtitle_pyj{
+    font-family: 'Pretendard';
+    font-size: 22px;
+    font-weight: 700;
+    color:$uglyblack;
+    letter-spacing: -0.5px;
+    line-height: 1.8rem;
+      @media (max-width : 990px){
+        font-size: 17px;
+        line-height: 1.4rem;
+      }
+  }
+  .formfont_popup_pyj{
+    font-family: 'Pretendard';
+    font-size: 18px;
+    font-weight: 400;
+    color:$uglyblack;
+    letter-spacing: -0.5px;
+    line-height: 1.7rem;
+      @media (max-width : 990px){
+        font-size: 14px;
+        line-height: 1.4rem;
+      }
+  }
+  .formfont_text_pyj {
+    font-family: "Pretendard";
+    font-size: 16px;
+    font-weight: 600;
+    color: $uglyblack;
+      @media (max-width : 990px){
+        font-size: 13px;
+    }
+  }
+  .formfont_placehold_pyj{
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-weight: 500;
+    color: $uglygray;
+      @media (max-width : 990px){
+        font-size: 12px;
+    }
+  }
+
+  // 배경
+  .contents_background_pyj{
+    background-color: #FFF4DF;
+    padding: 9rem 0;
+    @media (max-width : 990px) {
+      padding: 3rem
+    }
+  }
+  .form_background_pyj{
+    max-width: 500px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  // 폼 입력칸 스타일
+  .input_box_1_pyj{
+    border: 1px solid #cccccc;
+    padding-left: 10px !important;
+    border-radius: 5px;
+    max-width: 400px;
+    height: 33px;
+      @media (max-width : 990px){
+        max-width: 300px;
+      }
+  }
+  .input_box_2_pyj{
+    border: 1px solid #cccccc;
+    padding-left: 10px !important;
+    border-radius: 5px;
+    max-width: 130px;
+    height: 33px;
+      @media (max-width : 990px){
+        max-width: 97px;
+      }
+  }
+  .mx_1{
+    margin: 0 0.25rem;
+  }
+  .errorps{
+    padding-left: 11px;
+  }
+  
+  // 폼 버튼
+  .formbuttonstyle_pyj{
+    width: 400px;
+    height: 60px;
+    background-color: $uglyorange;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-family: 'Pretendard';
+    font-size: 22px;
+    font-weight: 600;
+      @media (max-width : 990px){
+        max-width: 300px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: 500;
+      }
+  }
+
+// 팝업
+// 팝업 오버레이 스타일
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  .popup-content {
+    background: #fff;
+    width: 350px;
+    height: 180px;
+    border-radius: 20px;
+    @media (max-width : 990px){
+      width: 300px;
+      height: 130px;
+    }
+
+    .popupbuttonstyle{
+      width: 300px;
+      height: 40px;
+      border-radius: 20px;
+      font-family: 'Pretendard';
+      font-size: 15px;
+      font-weight: 600;
+      background-color: $uglyorange;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      @media (max-width : 990px){
+        width: 250px;
+        height: 30px;
+        font-size: 13px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+// body 스크롤 비활성화
+body.no-scroll {
+  overflow: hidden;
+}
+
 // 퀵버튼 컴포넌트
 // 퀵 폰트
 .font_button_pyj{
@@ -441,64 +610,4 @@ $uglygray : #414B5A;
 //           font-size: 16px;
 //           line-height: 1.4rem;
 //       }
-// }
-
-// #map_pick_pyj{
-//   position: absolute;
-//   transition: 1s;
-//   font-size: 30px;
-//   text-align: center; 
-//   width:100%;
-//   height:100%;
-  
-//     .pick_con1{
-//       position: absolute;
-//       top: 50%;
-//       left: 55%;
-//       width:50px;
-//       height: 50px;
-//       overflow: hidden;
-//       display: block;
-//       &:hover{
-//         filter: invert(1) sepia(1) saturate(10000%) hue-rotate(0deg) brightness(0.7);
-//       }
-//     }
-//     .pick_con2{
-//       position: absolute;
-//       top: 35%;
-//       left: 45%;
-//       width:50px;
-//       height: 50px;
-//       overflow: hidden;
-//       display: block;
-//       &:hover{
-//         filter: invert(1) sepia(1) saturate(10000%) hue-rotate(0deg) brightness(0.7);
-//       }
-//     }
-//     .pick_con3{
-//       position: absolute;
-//       top: 20%;
-//       right: 45%;
-//       width:50px;
-//       height: 50px;
-//       overflow: hidden;
-//       display: block;
-//       &:hover{
-//         filter: invert(1) sepia(1) saturate(10000%) hue-rotate(0deg) brightness(0.7);
-//       }
-//     }
-//     i{
-//       transform: translateY(100%);
-//       display: block;
-//       animation: fontani 1.5s;
-//       animation-fill-mode: forwards;
-//     }
-// }
-// @keyframes fontani {
-//   0%{
-//     transform: translateY(100%);
-//   }
-//   100%{
-//     transform: translateY(0);
-//   } 
 // }
