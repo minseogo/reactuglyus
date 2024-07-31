@@ -1,0 +1,249 @@
+ul, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.border-radius {
+  border-radius: 20px;
+}
+
+.font_navi {
+  font-family: "Pretendard";
+  font-size: 22px;
+  font-weight: 400;
+  color: #1F2937;
+  letter-spacing: -0.5px;
+  line-height: 1.25rem;
+}
+@media (max-width: 990px) {
+  .font_navi {
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.font_login {
+  font-family: "Pretendard";
+  font-size: 14px;
+  font-weight: 400;
+  color: #1F2937;
+  letter-spacing: -0.5px;
+  line-height: 1rem;
+}
+@media (max-width: 990px) {
+  .font_login {
+    font-size: 12px;
+  }
+}
+
+.font_con_title_k {
+  font-family: "Pretendard";
+  font-size: 38px;
+  font-weight: 700;
+  color: #FE663F;
+  letter-spacing: -0.5px;
+  line-height: 2.5rem;
+}
+@media (max-width: 990px) {
+  .font_con_title_k {
+    font-size: 28px;
+    line-height: 1.7rem;
+  }
+}
+
+.font_con_title_e {
+  font-family: "Rubik";
+  font-size: 38px;
+  font-weight: 700;
+  color: #FE663F;
+  letter-spacing: -0.5px;
+  line-height: 2.5rem;
+}
+@media (max-width: 990px) {
+  .font_con_title_e {
+    font-size: 28px;
+    line-height: 1.7rem;
+  }
+}
+
+.font_title_k {
+  font-family: "Pretendard";
+  font-size: 30px;
+  font-weight: 700;
+  color: #1F2937;
+  letter-spacing: -0.5px;
+  line-height: 1.8rem;
+}
+@media (max-width: 990px) {
+  .font_title_k {
+    font-size: 22px;
+  }
+}
+
+.font_title_e {
+  font-family: "Rubik";
+  font-size: 30px;
+  font-weight: 700;
+  color: #1F2937;
+  letter-spacing: -0.5px;
+  line-height: 1.8rem;
+}
+@media (max-width: 990px) {
+  .font_title_e {
+    font-size: 22px;
+  }
+}
+
+.font_subtitle_k {
+  font-family: "Pretendard";
+  font-size: 22px;
+  font-weight: 700;
+  color: #414B5A;
+  letter-spacing: -0.5px;
+  line-height: 1.8rem;
+}
+@media (max-width: 990px) {
+  .font_subtitle_k {
+    font-size: 18px;
+    line-height: 1.6rem;
+  }
+}
+
+.font_subtitle_e {
+  font-family: "Rubik";
+  font-size: 22px;
+  font-weight: 700;
+  color: #414B5A;
+  letter-spacing: -0.5px;
+  line-height: 1.8rem;
+}
+@media (max-width: 990px) {
+  .font_subtitle_e {
+    font-size: 18px;
+    line-height: 1.6rem;
+  }
+}
+
+.font_leadcopy {
+  font-family: "Pretendard";
+  font-size: 18px;
+  font-weight: 600;
+  color: #414B5A;
+  letter-spacing: -0.5px;
+  line-height: 1.8rem;
+}
+@media (max-width: 990px) {
+  .font_leadcopy {
+    font-size: 16px;
+    line-height: 1.4rem;
+  }
+}
+
+.font_text {
+  font-family: "Pretendard";
+  font-size: 16px;
+  font-weight: 400;
+  color: #414B5A;
+  letter-spacing: -0.5px;
+  line-height: 1.5rem;
+}
+@media (max-width: 990px) {
+  .font_text {
+    font-size: 14px;
+  }
+}
+
+.font_button {
+  font-family: "Pretendard";
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: -0.5px;
+  line-height: 1.5rem;
+}
+@media (max-width: 990px) {
+  .font_button {
+    font-size: 14px;
+  }
+}
+
+.font_f18bold {
+  font-family: "Pretendard";
+  font-size: 18px;
+  font-weight: 700;
+  color: #414B5A;
+}
+
+.font_f14semibold {
+  font-family: "Pretendard";
+  font-size: 14px;
+  font-weight: 600;
+  color: #414B5A;
+}
+
+.font_f13regular_k {
+  font-family: "Pretendard";
+  font-size: 13px;
+  font-weight: 400;
+  color: #414B5A;
+}
+
+.font_f13regular_e {
+  font-family: "Rubik";
+  font-size: 13px;
+  font-weight: 400;
+  color: #414B5A;
+}
+
+.font_f13bold {
+  font-family: "Pretendard";
+  font-size: 13px;
+  font-weight: 700;
+  color: #414B5A;
+}
+
+.section_blank {
+  margin-bottom: 220px;
+}
+
+.title_blank {
+  margin-bottom: 40px;
+}
+
+.text_blank {
+  margin-bottom: 23px;
+}
+
+.contents_L_blank {
+  margin-left: 20px;
+}
+
+.contents_R_blank {
+  margin-right: 20px;
+}
+
+.contents_B_blank {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .section_blank {
+    margin-bottom: 80px;
+  }
+  .title_blank {
+    margin-bottom: 10px;
+  }
+  .text_blank {
+    margin-bottom: 10px;
+  }
+  .contents_L_blank {
+    margin-left: 10px;
+  }
+  .contents_R_blank {
+    margin-right: 10px;
+  }
+  .contents_B_blank {
+    margin-bottom: 10px;
+  }
+}

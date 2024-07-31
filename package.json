@@ -14,7 +14,7 @@
     "react-hook-form": "^7.52.0",
     "react-kakao-maps": "^0.0.13",
     "react-router-dom": "^6.25.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sass": "^1.77.6",
     "styled-components": "^6.1.11",
     "swiper": "^11.1.4",

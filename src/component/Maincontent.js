@@ -5,7 +5,7 @@ import Mainbanner from './yys/Mainbanner';
 import Collabobanner from './yys/Collabobanner';
 import Sustainability from './jjh/Sustainability';
 import Review from './gms/Review';
-import Store from './jjh/Store';
+import Store from './gms/Store';
 import Recipe from './yjy/Recipe';
 import Map from './pyj/map/Map';
 import Eventbanner from './yys/Eventbanner';

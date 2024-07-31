@@ -48,7 +48,8 @@
 #store_jjh .swiper-slide img {
   max-height: 100%;
   transition: transform 0.3s ease; /* 이미지 크기 변화에 대한 부드러운 전환을 추가합니다. */
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transform: scale(0.5);
   transform-origin: center bottom;
 }
