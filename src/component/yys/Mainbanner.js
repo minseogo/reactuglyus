@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Header() {
+function Header({cls}) {
     return (
         <div>
-            
+            {cls}
         </div>
     )
 }

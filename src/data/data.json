@@ -72,7 +72,7 @@
             }
         ],
     "mainbanner_yys" :{
-        "dir" : "/img/img_yys/img",
+        "dir" : "./img/img_yys/img",
         "imginfo" : [
             {
                 "mainimgnm" : "main_gms",
@@ -92,7 +92,7 @@
         ]
     },
     "store_jjh" : {
-        "dir" : "/img/img_jjh/jpg/",
+        "dir" : "./img/img_jjh/jpg/",
         "storeinfo" : [
             {
                 "storeimgnm" : "bok_choy",
@@ -147,7 +147,7 @@
         ]
     },
     "recipe_yjy" : {
-        "dir" : "/img/img_yjy/recipe/",
+        "dir" : "./img/img_yjy/recipe/",
         "recipeinfo" : [
             {
                 "recipeimgnm" : "Jeonju_Bibimbap",
@@ -206,7 +206,7 @@
         ]
     },
     "map_pyj" : {
-        "dir" : "/img/img_pyj/map/",
+        "dir" : "./img/img_pyj/map/",
         "mapinfo" : [
             {   
                 "location" : "35.5665|128.1654",

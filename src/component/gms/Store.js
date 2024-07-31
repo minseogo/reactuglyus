@@ -32,7 +32,7 @@ const Store = () => {
             <SwiperSlide className="paprika d-flex justify-content-between align-items-center pt-5 pt-md-0">
                 <div className="col-6 img_lg_p mt-5">
                 <div className="imglayout pt-5">
-                    <img className="paprika_png png scaled-image img-fluid" src="/img/img_gms/store/paprika_gms.png" alt="" />
+                    <img className="paprika_png png scaled-image img-fluid" src="./img/img_gms/store/paprika_gms.png" alt="" />
                 </div>
                 </div>
                 <div className="info text-nowrap col-6 ms-5 mb-5">
@@ -49,7 +49,7 @@ const Store = () => {
             <SwiperSlide className="swiper-slide lemon d-flex justify-content-between align-items-center pt-5 pt-md-0">
                 <div className="col-6 img_lg_p mt-5">
                     <div className="imglayout pt-5 ">
-                        <img className="lemon_png png scaled-image img-fluid " src="/img/img_gms/store/lemon_gms.png" alt="" />
+                        <img className="lemon_png png scaled-image img-fluid " src="./img/img_gms/store/lemon_gms.png" alt="" />
                     </div>
                 </div>
                 <div className="info text-nowrap col-6 ms-5">
@@ -66,7 +66,7 @@ const Store = () => {
             <SwiperSlide className="swiper-slide cucumber d-flex justify-content-between align-items-center pt-5 pt-md-0">
                 <div className="col-6 img_lg_p mt-5">
                     <div className="imglayout pt-5">
-                        <img className="cucumber_png png scaled-image img-fluid " src="/img/img_gms/store/cucumber_gms.png" alt="" />
+                        <img className="cucumber_png png scaled-image img-fluid " src="./img/img_gms/store/cucumber_gms.png" alt="" />
                     </div>
                 </div>
                 
@@ -84,7 +84,7 @@ const Store = () => {
             <SwiperSlide className="swiper-slide carrot d-flex justify-content-between align-items-center pt-5 pt-md-0">
                     <div className="col-6 img_lg_p mt-5">
                         <div className="imglayout pt-5"> 
-                            <img className="carrot_png png scaled-image img-fluid " src="/img/img_gms/store/carrot_gms.png" alt="" />
+                            <img className="carrot_png png scaled-image img-fluid " src="./img/img_gms/store/carrot_gms.png" alt="" />
                         </div>
                     </div>
                     
@@ -102,7 +102,7 @@ const Store = () => {
             <SwiperSlide className="swiper-slide mushroom d-flex justify-content-between align-items-center pt-5 pt-md-0">
                 <div className="col-6 img_lg_p mt-5">
                     <div className="imglayout pt-5">                         
-                        <img className="mushroom_png png scaled-image img-fluid " src="/img/img_gms/store/mushroom_gms.png" alt="" /> 
+                        <img className="mushroom_png png scaled-image img-fluid " src="./img/img_gms/store/mushroom_gms.png" alt="" /> 
                     </div>
                 </div>
                 
@@ -120,7 +120,7 @@ const Store = () => {
             <SwiperSlide className="swiper-slide bok_choy d-flex justify-content-between align-items-center pt-5 pt-md-0">
                 <div className="col-6 img_lg_p mt-5">
                     <div className="imglayout pt-5">
-                        <img className="bok_choy_png png scaled-image img-fluid " src="/img/img_gms/store/bok_choy_gms.png" alt="" />
+                        <img className="bok_choy_png png scaled-image img-fluid " src="./img/img_gms/store/bok_choy_gms.png" alt="" />
                     </div>
                 </div>
                 

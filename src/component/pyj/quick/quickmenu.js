@@ -23,7 +23,7 @@ const QuickMenu = () => {
                 <Quickitem></Quickitem>             
             </ul>
             <a href="#none" className='quickplusicon'>
-                <img src="/img/img_pyj/quick/plus.svg" alt="플러스" className='quickIcon' />
+                <img src="./img/img_pyj/quick/plus.svg" alt="플러스" className='quickIcon' />
             </a>
         </div>
       </aside>

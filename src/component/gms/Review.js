@@ -165,7 +165,7 @@ function Review() {
                           <p className="usernaver_box_text fw-medium">선물하기</p>
                         </div>
                         <div className="buy_box d-flex justify-content-evenly align-items-center">
-                          <img className="naver_circle_icon" src="/img/img_gms/review/naver_icon-circle_gms.png" alt="" />
+                          <img className="naver_circle_icon" src="./img/img_gms/review/naver_icon-circle_gms.png" alt="" />
                           <p className="usernaver_box_text fw-medium">구매하기</p>
                         </div>
                       </div>
@@ -175,7 +175,7 @@ function Review() {
                     <div className="reviewbox review_text bg-white">
                       <div className="d-flex justify-content-between align-items-center px-2 pt-2">
                         <p className="twitter_profile fw-lighter rounded-circle d-flex justify-content-center align-items-center text-white f_13  mt-0 ms-0">민서</p>
-                        <img className="twitter_logo" src="/img/img_gms/review/icon-twitter_gms.png" alt="" />
+                        <img className="twitter_logo" src="./img/img_gms/review/icon-twitter_gms.png" alt="" />
                         <i className="bi bi-gear twitter_setting "></i>
                       </div>
                       <div className="twitter_top_text d-flex border-bottom">
@@ -202,7 +202,7 @@ function Review() {
                         <div className="py-2 px-3 d-flex align-items-center justify-content-between ">
                           <i className="bi bi-house-door-fill"></i>
                           <i className="bi bi-search"></i>
-                          <img className="twitter_followingicon" src="/img/img_gms/review/following_gms.png"alt="" />
+                          <img className="twitter_followingicon" src="./img/img_gms/review/following_gms.png"alt="" />
                           <i className="bi bi-bell-fill"></i>
                           <i className="bi bi-envelope"></i>
                         </div>
@@ -228,7 +228,7 @@ function Review() {
                       <div className="insta_reiviewbox_icon d-flex">
                         <i className="bi bi-heart-fill ms-1"></i>
                         <i className="bi bi-chat ms-3"></i>
-                        <img className="insta_icon_send ms-3" src="/img/img_gms/review/send_gms.svg" alt="" />            
+                        <img className="insta_icon_send ms-3" src="./img/img_gms/review/send_gms.svg" alt="" />            
                       </div>
                     </div>
                     
@@ -248,7 +248,7 @@ function Review() {
                   <div className="reviewbox review_text bg-white">
                               <div className="d-flex align-items-center justify-content-between youtube_icon mt-1 mx-2">
                                 <div>
-                                  <img className="youtube_logo" src="/img/img_gms/review/youtube.logo_gms.png" alt="" />
+                                  <img className="youtube_logo" src="./img/img_gms/review/youtube.logo_gms.png" alt="" />
                                 </div>
                                 <div>
                                   <i className="bi bi-cast me-3"></i>
@@ -277,7 +277,7 @@ function Review() {
                               </div>
                                 <div className=" youtube_bottom_icon mt-5 d-flex align-items-center justify-content-around">
                                   <i className="bi bi-house-door-fill"></i>
-                                  <img className="youtube_bottom_icon_s" src="/img/img_gms/review/youtube_shorts_logo_gms.jpg" alt="" />
+                                  <img className="youtube_bottom_icon_s" src="./img/img_gms/review/youtube_shorts_logo_gms.jpg" alt="" />
                                   <i className="bi bi-plus-circle"></i>
                                   <i className="bi bi-collection-play"></i>
                                   <span className="youtube_profile fw-lighter rounded-circle f_11 justify-content-center align-items-center text-white">{youtube.profileName}</span>
@@ -287,7 +287,7 @@ function Review() {
                 <SwiperSlide className='naverblog d-flex justify-content-center align-items-center text-center'>
                   <div className="reviewbox review_text bg-white">
                     <div className="d-flex align-items-center justify-content-around naverblog_top_icon">
-                      <img className="naverblog_logo" src="/img/img_gms/review/naverblog_gms.png" alt="" />
+                      <img className="naverblog_logo" src="./img/img_gms/review/naverblog_gms.png" alt="" />
                       <i className="bi bi-card-list"></i>
                       <p className="naverblog_top_title f_13">{naverBlog.blogName}</p>
                       <i className="bi bi-search"></i>
@@ -327,11 +327,11 @@ function Review() {
                       </p>
                     </div>    
                     <div className="naverblog_bottom_icon d-flex align-items-center justify-content-around border-top">
-                      <img className="naverblog_bottom_naverlogo " src="/img/img_gms/review/icon-naver_gms.png" alt="" />
+                      <img className="naverblog_bottom_naverlogo " src="./img/img_gms/review/icon-naver_gms.png" alt="" />
                       <i className="bi bi-arrow-left-short f_30"></i>
                       <i className="bi bi-arrow-right-short f_30"></i>
                       <i className="bi bi-arrow-clockwise"></i>
-                      <img className="naverblog_bottom_ano_arrow" src="/img/img_gms/review/arrow-right_gms.png" alt="" />
+                      <img className="naverblog_bottom_ano_arrow" src="./img/img_gms/review/arrow-right_gms.png" alt="" />
                       <i className="bi bi-list"></i>
                     </div>
                   </div>
@@ -435,7 +435,7 @@ function Review() {
                           <p className="usernaver_box_text fw-medium">선물하기</p>
                         </div>
                         <div className="buy_box d-flex justify-content-evenly align-items-center">
-                          <img className="naver_circle_icon" src="/img/img_gms/review/naver_icon-circle_gms.png" alt="" />
+                          <img className="naver_circle_icon" src="./img/img_gms/review/naver_icon-circle_gms.png" alt="" />
                           <p className="usernaver_box_text fw-medium">구매하기</p>
                         </div>
                       </div>
@@ -445,7 +445,7 @@ function Review() {
                     <div className="reviewbox review_text bg-white">
                       <div className="d-flex justify-content-between align-items-center px-2 pt-2">
                         <p className="twitter_profile fw-lighter rounded-circle d-flex justify-content-center align-items-center text-white f_13  mt-0 ms-0">민서</p>
-                        <img className="twitter_logo" src="/img/img_gms/review/icon-twitter_gms.png" alt="" />
+                        <img className="twitter_logo" src="./img/img_gms/review/icon-twitter_gms.png" alt="" />
                         <i className="bi bi-gear twitter_setting "></i>
                       </div>
                       <div className="twitter_top_text d-flex border-bottom">
@@ -472,7 +472,7 @@ function Review() {
                         <div className="py-2 px-3 d-flex align-items-center justify-content-between ">
                           <i className="bi bi-house-door-fill"></i>
                           <i className="bi bi-search"></i>
-                          <img className="twitter_followingicon" src="/img/img_gms/review/following_gms.png"alt="" />
+                          <img className="twitter_followingicon" src="./img/img_gms/review/following_gms.png"alt="" />
                           <i className="bi bi-bell-fill"></i>
                           <i className="bi bi-envelope"></i>
                         </div>
@@ -498,7 +498,7 @@ function Review() {
                       <div className="insta_reiviewbox_icon d-flex">
                         <i className="bi bi-heart-fill ms-1"></i>
                         <i className="bi bi-chat ms-3"></i>
-                        <img className="insta_icon_send ms-3" src="/img/img_gms/review/send_gms.svg" alt="" />            
+                        <img className="insta_icon_send ms-3" src="./img/img_gms/review/send_gms.svg" alt="" />            
                       </div>
                     </div>
                     
@@ -518,7 +518,7 @@ function Review() {
                   <div className="reviewbox review_text bg-white">
                               <div className="d-flex align-items-center justify-content-between youtube_icon mt-1 mx-2">
                                 <div>
-                                  <img className="youtube_logo" src="/img/img_gms/review/youtube.logo_gms.png" alt="" />
+                                  <img className="youtube_logo" src="./img/img_gms/review/youtube.logo_gms.png" alt="" />
                                 </div>
                                 <div>
                                   <i className="bi bi-cast me-3"></i>
@@ -547,7 +547,7 @@ function Review() {
                               </div>
                                 <div className=" youtube_bottom_icon mt-5 d-flex align-items-center justify-content-around">
                                   <i className="bi bi-house-door-fill"></i>
-                                  <img className="youtube_bottom_icon_s" src="/img/img_gms/review/youtube_shorts_logo_gms.jpg" alt="" />
+                                  <img className="youtube_bottom_icon_s" src="./img/img_gms/review/youtube_shorts_logo_gms.jpg" alt="" />
                                   <i className="bi bi-plus-circle"></i>
                                   <i className="bi bi-collection-play"></i>
                                   <span className="youtube_profile fw-lighter rounded-circle f_11 justify-content-center align-items-center text-white">{youtube.profileName}</span>
@@ -557,7 +557,7 @@ function Review() {
                 <SwiperSlide className='naverblog d-flex justify-content-center align-items-center text-center'>
                   <div className="reviewbox review_text bg-white">
                     <div className="d-flex align-items-center justify-content-around naverblog_top_icon">
-                      <img className="naverblog_logo" src="/img/img_gms/review/naverblog_gms.png" alt="" />
+                      <img className="naverblog_logo" src="./img/img_gms/review/naverblog_gms.png" alt="" />
                       <i className="bi bi-card-list"></i>
                       <p className="naverblog_top_title f_13">{naverBlog.blogName}</p>
                       <i className="bi bi-search"></i>
@@ -597,11 +597,11 @@ function Review() {
                       </p>
                     </div>    
                     <div className="naverblog_bottom_icon d-flex align-items-center justify-content-around border-top">
-                      <img className="naverblog_bottom_naverlogo " src="/img/img_gms/review/icon-naver_gms.png" alt="" />
+                      <img className="naverblog_bottom_naverlogo " src="./img/img_gms/review/icon-naver_gms.png" alt="" />
                       <i className="bi bi-arrow-left-short f_30"></i>
                       <i className="bi bi-arrow-right-short f_30"></i>
                       <i className="bi bi-arrow-clockwise"></i>
-                      <img className="naverblog_bottom_ano_arrow" src="/img/img_gms/review/arrow-right_gms.png" alt="" />
+                      <img className="naverblog_bottom_ano_arrow" src="./img/img_gms/review/arrow-right_gms.png" alt="" />
                       <i className="bi bi-list"></i>
                     </div>
                   </div>

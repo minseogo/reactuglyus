@@ -14,13 +14,15 @@ import Form from './pyj/form/Form';
 function Maincontent() {
     return (
         <>
-            <Mainbanner />
+            <Mainbanner cls="스와이퍼슬라이드" />
             <Collabobanner />
             <Sustainability />
             <Review />
             <Store />
-            <Recipe />
-            <Map />
+            {/* 
+            
+            <Recipe /> */}
+            {/* <Map /> */}
             <Eventbanner />
             <Form />
          </>

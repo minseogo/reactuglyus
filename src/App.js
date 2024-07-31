@@ -2,17 +2,18 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './component/yys/Header';
 import Footer from './component/yjy/Footer';
-// import Quickmenu from './component/pyj/quick/Quickmenu';
-import Maincontent from './component/Maincontent';
+import Quickmenu from './component/pyj/quick/Quickmenu';
+ import Maincontent from './component/Maincontent';
 
 function App() {
     return (
         <>
-            <Header />
-            {/* <Routes>
+            <Header cls="fixed-top" />
+            <Routes>
                 <Route path='/' element={<Maincontent />}></Route>
-            </Routes>             */}
-            <Footer />
+            </Routes>            
+            <Maincontent />
+            <Footer /> 
             <Quickmenu />
         </>
     );

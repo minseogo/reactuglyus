@@ -10,8 +10,8 @@
             "userName": "MIN***",
             "creationDate": "24.04.25",
             "post": "배송 하루만에 왔어요 | 완전빠르고 이번에 | 외국 친구들에게 퓨전 한국음식 | 맛보여주고 싶었는데 | 레시피 박스 그대로 오니까 | 너무 편리한거 같아요!",
-            "profileimageUrl" : "/img/img_gms/review/naver_riview_profilephoto_gms.png",
-            "articleimageUrl": "/img/img_gms/review/review_photo_gms.jpg"
+            "profileimageUrl" : "./img/img_gms/review/naver_riview_profilephoto_gms.png",
+            "articleimageUrl": "./img/img_gms/review/review_photo_gms.jpg"
 
     },
     "twitter": {
@@ -20,20 +20,20 @@
             "userName": "민서1112",
             "twitterName": "@minseo",
             "post": "어글리어스와 함께 요리하는 지수 보고 가세요 ~",
-            "profileimageUrl" : "/img/img_gms/review/twitter_reivew_profilephoto_gms.png",
-            "articleimageUrl": "/img/img_gms/review/twitter_reviewbox_photo_gms.jpg"
+            "profileimageUrl" : "./img/img_gms/review/twitter_reivew_profilephoto_gms.png",
+            "articleimageUrl": "./img/img_gms/review/twitter_reviewbox_photo_gms.jpg"
         
     },
     "instagram": {
 
             "userName": "jennierubyjane",
             "location": "Korea",
-            "profileimageUrl" : "/img/img_gms/review/insta_riview_profilephoto_gms.png",
-            "articleimageUrl": "/img/img_gms/review/insta_review_photo_gms.png",
+            "profileimageUrl" : "./img/img_gms/review/insta_riview_profilephoto_gms.png",
+            "articleimageUrl": "./img/img_gms/review/insta_review_photo_gms.png",
             "followersName": "minseo",
-            "followerimageUrlF" : "/img/img_gms/review/insta_following_photo_gms.png",
-            "followerimageUrlS" : "/img/img_gms/review/insta_following_photo_2_gms.png",
-            "followerimageUrlT" : "/img/img_gms/review/insta_following_photo_3_gms.png",
+            "followerimageUrlF" : "./img/img_gms/review/insta_following_photo_gms.png",
+            "followerimageUrlS" : "./img/img_gms/review/insta_following_photo_2_gms.png",
+            "followerimageUrlT" : "./img/img_gms/review/insta_following_photo_3_gms.png",
             "likes": "5,373,154 명",
             "post": "오늘 저녁은 어글리어스로 멤버들과 함께",
             "hashTag": "#블랙핑크, #어글리어스",
@@ -50,8 +50,8 @@
             "channelName": "민서의 브이로그",
             "followersCount": "94만",
             "profileName": "민서",
-            "profileimageUrl" : "/img/img_gms/review/youtube_profilephoto_gms.png",
-            "articleimageUrl": "/img/img_gms/review/youtube_photo_gms.png"
+            "profileimageUrl" : "./img/img_gms/review/youtube_profilephoto_gms.png",
+            "articleimageUrl": "./img/img_gms/review/youtube_photo_gms.png"
         
     },
     "naverBlog": {
@@ -61,8 +61,8 @@
             "userName": "민서엄마",
             "postDate": "2024. 04. 24 20:07",
             "post": "지난번에 내돈내산으로 시작한 | 어글리어스 마켓 채소 박스 정기구독을 | 소개해 드린 이후에 | 지금까지 배송은 7회차를 받게 되었어요. | 처음에는 2주 간격으로 받다가 | 신랑이랑 같이 요리하는 것에 빠져서 | 현재는 1주 간격으로 받고 있답니다. | 그동안 왔던 스탠다드 박스 구성을 보여드려요. | 늘 푸짐하게 받으니 좋은거 같아요!",
-            "profileimageUrl" : "/img/img_gms/review/naverblog_riview_profilephoto_gms.png",
-            "articleimageUrl": "/img/img_gms/review/naverblog_review_photo_gms.jpg",
+            "profileimageUrl" : "./img/img_gms/review/naverblog_riview_profilephoto_gms.png",
+            "articleimageUrl": "./img/img_gms/review/naverblog_review_photo_gms.jpg",
             "blogName" : "사랑 곱배기 밍서네♥"
         
     }
