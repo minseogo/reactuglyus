@@ -9,11 +9,11 @@ function App() {
     return (
         <>
             <Header />
-            <Routes>
+            {/* <Routes>
                 <Route path='/' element={<Maincontent />}></Route>
-            </Routes>            
+            </Routes>             */}
             <Footer />
-            {/* <Quickmenu /> */}
+            <Quickmenu />
         </>
     );
 }
