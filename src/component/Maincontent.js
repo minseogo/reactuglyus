@@ -17,8 +17,8 @@ function Maincontent() {
             <Mainbanner cls="스와이퍼슬라이드" />
             <Collabobanner />
             <Sustainability />
-            <Review />
-            <Store />
+            {/* <Review />
+            <Store /> */}
             {/* 
             
             <Recipe /> */}
