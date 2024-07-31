@@ -7,7 +7,7 @@ import '../../css/common.module.css'
 import datareview from '../../data/reviewdata.json'
 
 function Review() {
-  const [slider, setSlider] = useState(0);
+  // const [slider, setSlider] = useState(0);
 
   const { naver, twitter, instagram, naverBlog, youtube } = datareview;
 
