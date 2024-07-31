@@ -1,4 +1,4 @@
-import Quickitem from './quickitem';
+import Quickitem from './Quickitem';
 import React, {useEffect} from "react";
 
 
