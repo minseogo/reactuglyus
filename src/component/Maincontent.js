@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 import Mainbanner from './yys/Mainbanner';
 import Collabobanner from './yys/Collabobanner';
 import Sustainability from './jjh/Sustainability';
@@ -14,15 +12,13 @@ import Form from './pyj/form/Form';
 function Maincontent() {
     return (
         <>
-            <Mainbanner cls="스와이퍼슬라이드" />
+            <Mainbanner />
             <Collabobanner />
             <Sustainability />
-            {/* <Review />
-            <Store /> */}
-            {/* 
-            
-            <Recipe /> */}
-            {/* <Map /> */}
+            <Review />
+            <Store />
+            <Recipe />
+            <Map />
             <Eventbanner />
             <Form />
          </>

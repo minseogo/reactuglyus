@@ -12,7 +12,6 @@ function App() {
             <Routes>
                 <Route path='/' element={<Maincontent />}></Route>
             </Routes>            
-            <Maincontent />
             <Footer /> 
             <Quickmenu />
         </>

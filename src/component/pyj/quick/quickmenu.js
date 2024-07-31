@@ -1,3 +1,4 @@
+import '../../../scss/pyj.scss';
 import Quickitem from './Quickitem';
 import React, {useEffect} from "react";
 
