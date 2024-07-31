@@ -8,7 +8,7 @@ import Quickmenu from './component/pyj/quick/Quickmenu';
 function App() {
     return (
         <>
-            <Header cls="fixed-top" />
+            <Header />
             <Routes>
                 <Route path='/' element={<Maincontent />}></Route>
             </Routes>            
